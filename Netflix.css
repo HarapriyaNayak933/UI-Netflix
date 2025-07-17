@@ -1,0 +1,369 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,200&family=Lora:ital,wght@0,400..700;1,400..700&family=Protest+Revolution&family=Protest+Riot&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Josefin+Sans:ital,wght@1,200&family=Lora:ital,wght@0,400..700;1,400..700&family=Protest+Revolution&family=Protest+Riot&display=swap');
+ 
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Josefin+Sans:ital,wght@1,200&family=Lora:ital,wght@0,400..700;1,400..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Protest+Revolution&family=Protest+Riot&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    /* font-family: "Lora", serif,"Bebas Neue", sans-serif; */
+    font-family: "Poppins", sans-serif;
+}
+body{
+    background-color: black;
+}
+.main{
+    background-image: url(backgroundnetflix.jpg);
+    height: 80vh;
+    position: relative;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: max(1000px,100vw);
+    /* background-color: black; */
+}
+.main .box
+{
+    height: 80vh;
+    width: 100%;
+    opacity: 0.45;
+    top: 0;
+    background-color: black;
+    position: absolute;
+}
+nav{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 62px;
+    position: relative;
+}
+nav img{
+    width: 150px;
+    color: rgb(255, 13, 13);
+    z-index: 10;
+    padding-left: 20vw;
+    position: relative;
+}
+nav button
+{
+    position: relative;
+    z-index: 10;
+}
+.hero
+{
+    height: 80%;
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    z-index: 10;
+    position: relative;
+    gap: 23px;
+    padding: 30px;
+    padding-bottom: 20px;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 600;
+    /* font: 1em sans-serif; */
+    /* font-weight: bold; */
+}
+/* >this sign is used for applying only on its first second and third child */
+.hero> :first-child
+{
+    /* font-family: "Bebas Neue", sans-serif; */
+    font-weight: 900;
+    text-align: center;
+    
+}
+.hero> :nth-child(2)
+{
+    /* font-family:  "Lora", serif,'Times New Roman', Times, serif; */
+    font-weight:400;
+    font-size: 1rem;
+    text-align: center;
+}
+.hero> :nth-child(3)
+{
+    /* font-family:  "Lora", serif,'Times New Roman', Times, serif; */
+    font-weight: 400;
+    font-size: 1rem ;
+    text-align: center;
+}
+.line
+{
+    background-color: rgb(52, 50, 50);
+    width: 100%;
+    height: 7px;
+    width: 100vw;
+}
+.line2
+{
+    background-color: rgb(52, 50, 50);
+    width: 100%;
+    width: 100vw;
+    height: 7px;
+}
+.line3
+{
+    background-color: rgb(52, 50, 50);
+    width: 100%;
+    width: 100vw; 
+    height: 7px;
+}
+.line4
+{
+    background-color: rgb(52, 50, 50);
+    width: 100%;
+    width: 100vw; 
+    height: 7px;
+}
+.new
+{
+    display: grid;
+    color: white;
+    /* font-family: "Lora", serif, 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
+    text-align: center;
+    justify-content: center;
+    margin-top: 10px;
+    grid-template-areas: 'newh newh img'
+    'new new img';
+}
+.new p{
+    grid-area: new;
+    height: 100px;
+    width: 300px;
+    margin-top: -80px;
+    margin-left: 64px;
+    padding: 10px;
+    font-weight: 400;
+    font-size: 20px;
+    text-align: left;
+    justify-content: center;
+
+}
+.new h1{
+    grid-area: newh;
+    margin-top: 20px;
+    /* margin-left: 400px; */
+    padding:30px;
+    font-weight: 700;
+    font-size: 60px;
+    /* text-align: center;
+    justify-content: center; */
+}
+.new img
+{
+    grid-area: img;
+    margin: 30px;
+    margin-bottom: 50px;
+}
+select
+{
+    color: white;
+    background-color: transparent;
+    border: 1px solid white;
+    padding: 8px;
+    text-align: center;
+    border-radius: 3px;
+}
+select:hover
+{
+    border-radius: 5px solid white;
+    cursor: pointer;
+}
+.btn2
+{
+    background-color: red;
+    /* /* padding-left: 8px; */
+    /* padding-right: 8px; */
+    padding: 9px;
+    color: white;
+    font-weight: 300;
+    text-align: center;
+    border-radius: 6px;
+    margin: 5px;
+}
+.btn2:hover{
+    background-color: rgb(105, 103, 103);
+    cursor: pointer;
+}
+#btn3
+{
+    background-color: red;
+    /* padding-top: 10px;
+    padding-bottom: 10px; */
+    /* padding: 1.5rem 1rem 0.5rem 0.5rem; */
+    padding: 15px;
+    padding-left: 10px;
+    padding-right: 60px;
+    text-align: center;
+    border-radius: 6px;
+}
+#btn3:hover{
+    cursor: pointer;
+    background-color: rgb(83, 81, 81);
+}
+.main input
+{
+    background-color: transparent;
+    border: 0.2px solid rgb(206, 204, 204);
+    padding: 15px;
+    padding-right: 120px;
+    padding-left: 30px;
+    margin-right: 0px;
+    width: 100px;
+    border-radius: 6px;
+}
+
+.old
+{
+    color: white;
+    display: grid;
+    flex-direction: row;
+    grid-template-areas: 'oldimg oldh oldh'
+    'oldimg oldp oldp';
+    grid-gap: 1rem;
+    
+}
+.old p{
+    margin-top: -300px;
+   padding-bottom: 1px;
+   margin-bottom: 1px;
+   font-size: 1.5rem;
+    grid-area: oldp;
+}
+.old h1{
+    height: 6px;
+    padding: 5px;
+    margin: 3px;
+    font-size: 3rem;
+    grid-area: oldh;
+    margin-top: 130px;
+    font-weight: 700;
+}
+.old img{
+    padding: 5px;
+    grid-area: oldimg;
+}
+.box2 
+{
+    position: relative;
+   height: 100px; 
+   width: 337px;
+   display: flex;
+   padding: 5px;
+   border: 1px solid white;
+   margin-left: 146px;
+   text-align: center;
+   border-radius: 20px;
+   justify-content: space-evenly;
+   margin-top: -30px;
+}
+.box2 img{
+    margin-top: 10px;
+    border: 1px solid rgb(204, 189, 189);
+    border-radius: 5px;
+    height: 60px;
+    width: 50px;
+}
+.box2 .download
+{
+    padding: 10px;
+    margin-top: 23px;
+    font-size: 1rem;
+}
+.box2 .stranger
+{
+    padding: 8px;
+    font-size: 0.9rem;
+    margin-top: 24px;
+    margin-right: 5px;
+    color: blue;
+}
+.third
+{
+    color: white;
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+}
+.third .video
+{
+    width: 24vw;
+    margin-left: -15px;
+}
+.video video{
+    
+  position: absolute;
+  margin-top: -385px;
+ height: 263px;
+    width: 632px;
+}
+.third .msg
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.msg> :first-child
+{
+  font-weight: 700;
+  padding: 1rem;
+  font-size: 36px;
+}
+.msg> :nth-child(2)
+{
+    font-weight: 400px;
+    font-size: 18px;
+    padding: 1rem;
+}
+.faq
+{
+    color: white;
+    padding: 34px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+.box4
+{
+    display: flex; 
+    width: 60vw;
+    background-color: #2d2d2d;
+    max-width:60vw;
+    margin: 6px auto;
+    justify-content: space-between;
+    padding: 24px;
+    cursor: pointer;
+    transition: all 1s ease-in-out;
+}
+.box4:hover
+{
+    background-color: #696767;
+}
+.last
+{
+    margin: 52px;
+    color: rgb(253, 251, 251,0.7);
+    display: flex;
+}
+.sec
+{
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    margin: 40px;
+    margin-left: 100px;
+}
+.sec span{
+    margin: 10px;
+}
+.sec span a{
+    margin: 1px;
+    text-decoration: underline;
+}
